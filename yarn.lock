@@ -1818,7 +1818,7 @@ __metadata:
     electron-builder: "npm:24.10.0"
     electron-builder-notarize: "npm:^1.5.1"
     electron-log: "npm:^5.0.1"
-    electron-updater: "npm:^6.1.7"
+    electron-updater: "npm:^6.3.0"
     html-webpack-plugin: "npm:^5.5.4"
     tmp: "npm:^0.2.1"
   peerDependencies:
@@ -5474,6 +5474,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"builder-util-runtime@npm:9.2.5":
+  version: 9.2.5
+  resolution: "builder-util-runtime@npm:9.2.5"
+  dependencies:
+    debug: "npm:^4.3.4"
+    sax: "npm:^1.2.4"
+  checksum: 10/89c1e67c286ad5dd039abd56af91b3fa3d01eb62ce16c07e8d496a06eb0ed9ce015870d83dd919ffa387a32d47f9080923958672fc993154c8a184c6b1a78adc
+  languageName: node
+  linkType: hard
+
 "builder-util@npm:24.9.4":
   version: 24.9.4
   resolution: "builder-util@npm:24.9.4"
@@ -7545,11 +7555,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-updater@npm:^6.1.7":
-  version: 6.1.7
-  resolution: "electron-updater@npm:6.1.7"
+"electron-updater@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "electron-updater@npm:6.3.0"
   dependencies:
-    builder-util-runtime: "npm:9.2.3"
+    builder-util-runtime: "npm:9.2.5"
     fs-extra: "npm:^10.1.0"
     js-yaml: "npm:^4.1.0"
     lazy-val: "npm:^1.0.5"
@@ -7557,7 +7567,7 @@ __metadata:
     lodash.isequal: "npm:^4.5.0"
     semver: "npm:^7.3.8"
     tiny-typed-emitter: "npm:^2.1.0"
-  checksum: 10/c6a5b566d70de550cd959a3af0bed98da868b997d7ef741ede488027a8c876af2e1bf981becfeac767c4dbf7af856ed4e53053e7fcd246dc2af5fc71fd5ef7cc
+  checksum: 10/8e18c2098b1995ab82437274c0e9994ec0effae7760719c5460a70f91aea9d642ae3131a3644a0b8f0dfefdbe26d07c91eb74748ac4eb8e2316843d183aed631
   languageName: node
   linkType: hard
 
